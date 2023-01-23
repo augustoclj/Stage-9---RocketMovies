@@ -29,7 +29,7 @@ export function SignUp(){
 
         <Input 
           placeholder="Senha"
-          type="text"
+          type="password"
           icon={FiLock}
         />
 
