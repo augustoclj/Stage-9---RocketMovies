@@ -11,6 +11,10 @@ export const Container = styled.button`
   border-radius: 10px;
   font-weight: 500;
   font-family: 'Roboto Slab', serif;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
 
   &:disabled{
     opacity: 0.5;

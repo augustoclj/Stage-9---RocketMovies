@@ -11,7 +11,7 @@ export default createGlobalStyle`
   body{
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
     color: ${({ theme }) => theme.COLORS.WHITE};
-
+    overflow-y: hidden;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -35,4 +35,27 @@ export default createGlobalStyle`
     filter: brightness(0.9)
   }
 
+
+  * {
+  scrollbar-width: thin;
+  scrollbar-color: ${({ theme }) => theme.COLORS.PINK_100} transparent;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: ${({ theme }) => theme.COLORS.PINK_100};
+  border-radius: 20px;
+  border: 2px solid transparent;
+}
+
+
 `;
+
