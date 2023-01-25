@@ -6,7 +6,7 @@ export function Rating({data, ...rest}){
     const stars = [];
     for (let i = 0; i < 5; i++) {
         stars.push(
-          data.rating > i ? <IoIosStar key={i}/> : <IoIosStarOutline key={i}/>
+          data > i ? <IoIosStar key={i}/> : <IoIosStarOutline key={i}/>
         );
     }
 

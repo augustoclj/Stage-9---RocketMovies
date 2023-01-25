@@ -3,11 +3,13 @@ import { Input } from '../../components/Input'
 import {FiCamera, FiUser, FiMail, FiLock, FiArrowLeft} from 'react-icons/fi';
 import { Button } from '../../components/Button';
 
+import { Link } from 'react-router-dom';
+
 export function Profile(){
   return(
     <Container>
       <header>
-        <a href="#"> <FiArrowLeft/> Voltar</a>
+        <Link to="/"> <FiArrowLeft/> Voltar</Link>
       </header>
 
       <Form>

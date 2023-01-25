@@ -4,7 +4,7 @@ import { Button } from '../../components/Button'
 
 import {FiUser, FiMail, FiLock, FiArrowLeft} from 'react-icons/fi';
 
-
+import { Link } from 'react-router-dom';
 
 export function SignUp(){
   return(
@@ -13,7 +13,7 @@ export function SignUp(){
         <h1>RocketMovies</h1>
         <p>Aplicação para acompanhar tudo que assistir.</p>
 
-        <h2>Faça seu login</h2>
+        <h2>Crie sua conta</h2>
 
         <Input 
           placeholder="Nome"
@@ -33,11 +33,11 @@ export function SignUp(){
           icon={FiLock}
         />
 
-        <Button title="Entrar" />
+        <Button title="Cadastrar" />
 
-        <a href="#">
+        <Link to="/">
           <FiArrowLeft/> Voltar para o login
-        </a>
+        </Link>
 
       </Form>
       <Background/>

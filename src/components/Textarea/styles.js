@@ -10,13 +10,14 @@ export const Container = styled.div`
   margin-bottom: 8px;
   border-radius: 10px;
 
-  > input{
-    height: 56px;
+  > textarea{
+    height: 275px;
     width: 100%;
-    padding: 12px;
+    padding: 20px;
     color: ${({ theme }) => theme.COLORS.WHITE};
     background: transparent;
     border: 0;
+    resize: none;
 
     &:placeholder{
       background-color: ${({ theme }) => theme.COLORS.GRAY_300};
