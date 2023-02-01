@@ -2,13 +2,11 @@ import { Container} from './styles';
 import { Rating } from '../../components/Rating'
 import { Tag } from '../../components/Tag'
 
-import { Link } from 'react-router-dom';
-
 export function Movie({ data, ...rest}){
   return(
     <Container>
-      <h2><Link to="/preview"> { data.title } </Link></h2>
-      <Rating data={data.rating}/>
+      <h2>{ data.title }</h2>
+      <Rating data={data}/>
       <p> {data.description} </p>
 
       {

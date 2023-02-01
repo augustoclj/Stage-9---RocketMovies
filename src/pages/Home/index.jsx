@@ -2,6 +2,7 @@ import {Container, PageTitle, NewMovie, MyMoviesList } from "./styles.js";
 import { Header } from "../../components/Header";
 import { Button } from "../../components/Button";
 import { Movie } from "../../components/Movie/";
+import { Section } from '../../components/Section'
 import { FiPlus } from 'react-icons/fi'
 
 export function Home(){
@@ -13,7 +14,7 @@ export function Home(){
       <PageTitle>
           <h2>Meus Filmes</h2>
 
-          <NewMovie to="/create">
+          <NewMovie>
             <Button title="Adicionar Filme" icon={FiPlus}/>
           </NewMovie>
 
