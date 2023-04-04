@@ -1,7 +1,6 @@
 export default {
   COLORS:{
 
-    BACKGROUND_1000: "#0D0C0F",
     BACKGROUND_900: "#1C1B1E",
 
     WHITE: "#F4EDE8",
@@ -15,8 +14,6 @@ export default {
     GRAY_300: "#262529",
 
     HEADER_BORDER: "#3E3B47",
-
-    
 
   }
 }

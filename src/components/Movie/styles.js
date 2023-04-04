@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
   min-width:90%;
   padding: 32px;
@@ -16,11 +15,6 @@ export const Container = styled.div`
     font-weight: 700;
     font-size: 24px;
     color: ${({ theme }) => theme.COLORS.WHITE};
-
-    a{
-      color: ${({ theme }) => theme.COLORS.WHITE};
-      text-decoration: none;
-    }
   }
 
   p{

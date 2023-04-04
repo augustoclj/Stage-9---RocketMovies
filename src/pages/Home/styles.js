@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   display: grid;
@@ -31,7 +30,7 @@ export const PageTitle = styled.div`
   }
 `;
 
-export const NewMovie = styled(Link)`
+export const NewMovie = styled.div`
 grid-area: "addmovie";
 `;
 
