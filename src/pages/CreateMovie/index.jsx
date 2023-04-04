@@ -26,7 +26,7 @@ export function CreateMovie(){
         />
 
         <Input 
-          placeholder="Sua nota (de 0 a 5)"
+          placeholder="Sua nota ( de 0 a 5 )"
           type="number"
           min="1" 
           max="5"
